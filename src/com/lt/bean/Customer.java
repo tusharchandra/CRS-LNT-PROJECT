@@ -2,6 +2,12 @@ package com.lt.bean;
 
 public class Customer {
 	
+	@Override
+	public String toString() {
+		return "Customer [customerId=" + customerId + ", customerName=" + customerName + ", customerAddress="
+				+ customerAddress + "]";
+	}
+
 	private int customerId;
 	private String customerName;
 	private String customerAddress;
